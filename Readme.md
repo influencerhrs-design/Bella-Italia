@@ -1,27 +1,54 @@
 # Bella Italia Restaurant Website
 
-A modern, component-based restaurant website for Bella Italia,
-showcasing authentic Italian cuisine and an elegant dining experience.
+A modern, responsive restaurant website for **Bella Italia**, built with
+React (via CDN), Tailwind CSS, and plain JavaScript — no build tools required.
 
 ## 🍝 Features
-- Hero section with introduction and call-to-action
-- About section describing the restaurant and its values
-- Menu section with food items, prices, and offers
-- Team section introducing chefs and staff
-- Testimonials with customer reviews
-- Contact section with location, email, and phone details
-- Smooth navigation and scroll-to-top feature
-- Reusable UI components for better structure
+- Hero section with call-to-action
+- About section with restaurant highlights
+- Menu section with pricing and special offers
+- Team introduction section
+- Customer testimonials
+- Contact section with map and business details
+- Scroll-to-top button
+- Mobile-friendly navigation
 
 ## 🧩 Tech Stack
 - HTML5
-- CSS3
+- React 18 (CDN)
+- Babel (in-browser JSX)
+- Tailwind CSS (CDN)
 - Vanilla JavaScript
-- Component-based file structure
 
 ## 📂 File Structure
-- Index.html → Main HTML entry point
-- app.js → App initialization and component loading
+- index.html → Main entry point (required for GitHub Pages)
+- app.js → Root React component
+- Header.js → Navigation bar
+- Hero.js → Hero / landing section
+- About.js → About section
+- Menu.js → Menu and offers
+- Team.js → Team members
+- Testimonials.js → Customer reviews
+- Contact.js → Contact details and map
+- Footer.js → Footer section
+- ScrollToTop.js → Scroll-to-top button
+- README.md → Project documentation
+
+## 🚀 How to Run
+Just open `index.html` in your browser.
+
+No build tools, no installation required.
+
+## 🌍 Live on GitHub Pages
+Enable GitHub Pages:
+- **Settings → Pages**
+- Source: `main`
+- Folder: `/ (root)`
+
+## 📞 Contact Information
+- **Phone**: +1 (234) 567-8900
+- **Email**: info@bellaitalia.com
+- **Location**: 123 Italian Street, New York, NY- app.js → App initialization and component loading
 - Header.js → Navigation bar
 - Hero.js → Hero / landing section
 - About.js → About section
