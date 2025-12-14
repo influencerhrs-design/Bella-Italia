@@ -1,40 +1,40 @@
 function Contact() {
-  try {
-    return (
-      <section id="contact" className="py-20 bg-white" data-name="contact" data-file="components/Contact.js">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="section-title">Visit Us</h2>
+  return (
+    <section id="contact" className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4">
+
+        <h2 className="text-4xl font-bold text-center mb-12">
+          Visit Us
+        </h2>
+
+        <div className="grid md:grid-cols-2 gap-12">
+
+          <div>
+            <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
+
+            <div className="space-y-4 text-gray-600">
+              <p><strong>📍 Location:</strong> 123 Italian Street, New York, NY</p>
+              <p><strong>📞 Phone:</strong> +1 (234) 567-8900</p>
+              <p><strong>📧 Email:</strong> info@bellaitalia.com</p>
+              <p><strong>⏰ Hours:</strong> Mon–Sun, 11AM – 10PM</p>
+            </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
-              
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-[var(--secondary-color)] rounded-lg flex items-center justify-center flex-shrink-0">
-                    <div className="icon-map-pin text-xl text-[var(--primary-color)]"></div>
-                  </div>
-                  <div>
-                    <h4 className="font-bold mb-1">Location</h4>
-                    <p className="text-[var(--text-light)]">123 Italian Street, Culinary District<br/>New York, NY 10001</p>
-                  </div>
-                </div>
+          <div className="w-full h-80 bg-gray-200 rounded overflow-hidden">
+            <iframe
+              title="map"
+              className="w-full h-full"
+              src="https://www.google.com/maps?q=New+York&output=embed"
+              loading="lazy"
+            ></iframe>
+          </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-[var(--secondary-color)] rounded-lg flex items-center justify-center flex-shrink-0">
-                    <div className="icon-phone text-xl text-[var(--primary-color)]"></div>
-                  </div>
-                  <div>
-                    <h4 className="font-bold mb-1">Phone</h4>
-                    <a href="tel:+1234567890" className="text-[var(--text-light)] hover:text-[var(--primary-color)]">+1 (234) 567-8900</a>
-                  </div>
-                </div>
+        </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-[var(--secondary-color)] rounded-lg flex items-center justify-center flex-shrink-0">
-                    <div className="icon-mail text-xl text-[var(--primary-color)]"></div>
+      </div>
+    </section>
+  );
+}                    <div className="icon-mail text-xl text-[var(--primary-color)]"></div>
                   </div>
                   <div>
                     <h4 className="font-bold mb-1">Email</h4>
